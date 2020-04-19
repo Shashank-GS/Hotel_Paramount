@@ -33,7 +33,7 @@ header nav li:hover, header #current{
 }
 
 #showcase h1{
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 #showcase p{
@@ -46,7 +46,7 @@ header nav li:hover, header #current{
 }
 
 #boxes .box_content{
-    width:100%;
+    width:100%; 
 }
 
 #the3boxes .the1box, #the3boxes .the2box, #the3boxes .the3box{
@@ -69,6 +69,10 @@ header nav li:hover, header #current{
     padding-bottom: 25px ;
 }
 
+#people .guest h1{
+
+    line-height: 1em ;
+}
 
 #about_article .about_content ,#about_article .about_img{
     width: 100%; 
