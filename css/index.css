@@ -1,0 +1,311 @@
+/* global to all */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em; 
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.highlight{
+    color: #f7c081;
+}
+/* inside the header tag elements */
+header{
+    background-color: #333;
+    min-height: 70px;
+}
+header nav a{
+    padding: 28px 20px;
+    text-decoration: none;
+    color: white; 
+}
+header #current a{
+    color: #f7c081;
+    background-color: #444444;
+}
+header nav a:hover{
+    color: #f7c081;
+     background-color: #444444;
+}
+
+header li{
+    display: inline-block;    
+}
+header #branding a{
+    text-decoration: none;
+    color: white; 
+    padding-top: 20px;
+    float: left; 
+    font-size: 0.8em;
+}
+header nav{
+    padding-top: 20px;
+    float: right;
+   
+} 
+
+ /* For section of id shoecase */
+
+
+#showcase{
+    background: url("../img/showcase.jpg") no-repeat 0 -101px ;
+    background-size: 100% 140%;
+    width: 100%;
+    height: 600px; 
+    text-align: center; 
+
+} 
+#showcase #showcase_heading{
+    padding: 40px;
+    font-size: 40px; 
+    color: white;
+    
+}   
+#showcase{
+    padding-top: 150px;
+}
+#showcase p{
+    font-size: 20px ; 
+    padding: 21px 0px ;
+    color: white;
+} 
+#showcase a, #contact a{
+    color: white;
+    padding: 15px 20px ; 
+    background-color: #333;
+    text-decoration: none;
+}
+#showcase #showcase_buttonid, #contact #contact_buttonid{
+
+    font-size: 20px; 
+    border:none ; 
+    display: inline-block; 
+    margin-top: 20px;
+}
+#showcase a:hover, #contact a:hover{
+    background-color: #f7c081; 
+    color: #333; 
+}
+
+/* The section of  boxes and Read More  */
+#boxes{
+    background-color: #333;
+    width: 100%; 
+    height: 450px;
+}
+
+
+#boxes .box_img {
+    float: left;
+    width: 50%;
+    background: url("../img/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+
+#boxes .box_content{
+    text-align: center; 
+    width: 50%;
+    padding: 50px 40px;
+    float: right;
+    color: white;
+}
+#boxes .box_content p{
+    padding: 30px 0;
+}
+
+#boxes #boxes_buttonid{
+    font-size: 20px; 
+    border:none ; 
+    display: inline-block; 
+    margin-top: 20px;
+
+}
+#boxes a{
+    color: #333;
+    padding: 15px 20px ; 
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+#boxes a:hover{
+    background-color: #f7c081; 
+    color: #333; 
+}
+
+/* section of 3boxes  */
+
+#the3boxes{
+    
+    height: 100%;
+}
+#the3boxes .the1box, #the3boxes .the2box, #the3boxes .the3box{
+    width: 33.333%; 
+    height: 100%;
+    padding:50px ; 
+    margin-bottom: 35px  ;
+    float: left;
+    text-align: center; 
+    color: #333;
+}
+
+
+#the3boxes .the2box{
+    background-color: #f7c08a ; 
+    color: #333;
+} 
+#the3boxes .the1box p , #the3boxes .the2box p, #the3boxes .the3box p{
+    color: #333;
+    font-size: 16px; 
+    padding: 22px ;
+} 
+
+#the3boxes .the1box h1, #the3boxes .the2box h1, #the3boxes .the3box h1{
+    color: #333;
+    font-size: 18px; 
+    padding-top: 10px;
+} 
+
+#the3boxes .the1box, #the3boxes .the3box
+{
+    background-color: #f4f4f4;
+}
+
+/* About  page css */ 
+/* article about */
+#about_article{
+    margin: 30px 0; 
+    width: 100%;
+    min-height: 300px; 
+    overflow: hidden;
+
+}
+#about_article .about_content ,#about_article .about_img  {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#about_article .about_img img{
+    width: 80%;
+   
+    border-radius: 50%;
+}
+
+#about_article .about_img{
+    text-align: center;
+}
+
+#about_article .about_content h1{
+    font-size: 40px ;
+    padding-top: 10px;
+    padding-bottom:40px ;
+    line-height: 1em; 
+}
+
+/* section people */ 
+
+#people{
+    background: url("../img/test-bg.jpg") no-repeat   center center/cover; 
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+#people h1{
+    color: white;
+    padding-top: 110px; 
+    padding-bottom: 10px ;
+    font-size: 40px; 
+    text-align: center;
+} 
+
+#people .guest{
+    width: 100%;
+    background-color: #f7c08a ;
+    opacity: 0.9;  
+    padding:  20px 25px 30px 25px ;
+    /* padding-bottom: 30px; */
+    border-radius: 5px; 
+    margin-top: 40px ;
+}
+
+#people .guest p{
+    color: #333333 ;  
+    padding-top: 10px;
+}
+
+#people .guest .guest_img{
+    width: 100px;
+    border-radius: 50%; 
+    float: left; 
+    margin-right: 30px;
+
+}
+
+/* contact page css */
+
+
+#contact{
+    padding-bottom: 40px;
+}
+#contact h1{
+    font-size: 40px;
+    padding: 40px 0;
+    padding-left: 10px;
+}
+#contact p{
+    padding-left: 10px;
+}
+
+#contact input, #contact textarea{
+    margin: 5px 0px 20px 0px;
+    width: 100%;
+    padding: 10px; 
+    border: 1px #dddddd solid;
+}
+
+#contact form{
+    padding: 10px ; 
+}
+
+/* section of contact boxes */
+#contact_boxes{
+    background-color: #333; 
+    color: #dddddd;
+    padding-top: 40px;
+    min-height: 250px;
+    width: 100%; 
+   
+}
+#contact_boxes .contact_box{ 
+    width: 33% ;
+    height: 200px ;
+    padding: 10px; 
+    text-align: center;
+    float: left;
+}
+
+#contact_boxes .contact_box p{
+    padding-bottom: 20px;
+}
+#contact_boxes .contact_box h1{
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    font-size: 18px;
+}
+
+
+/* footer  */
+
+footer{
+    text-align: center; 
+    background: #444444;
+    color:  white; 
+    padding: 30px;
+    width: 100%; 
+}

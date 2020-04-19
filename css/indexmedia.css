@@ -1,0 +1,104 @@
+/* *{
+    display: none;
+}  */
+
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* index  page css on mobile */
+
+header{
+    padding-top: 20px; 
+    padding-bottom:5px;
+    border-bottom: 2px solid #f7c08a  ;
+}
+
+header h1, header #branding a ,header nav, header nav li{
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+
+header nav a{
+   padding: 1.5% 40%; 
+   display: inline-block;  
+}
+
+header nav li:hover, header #current{
+    background-color: #444444 ;
+}
+
+#showcase h1{
+    line-height: 1em;
+}
+
+#showcase p{
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+#boxes .box_img{
+    width: 0%;
+}
+
+#boxes .box_content{
+    width:100%;
+}
+
+#the3boxes .the1box, #the3boxes .the2box, #the3boxes .the3box{
+    float: none; 
+    width: 100%;
+    margin: 0;
+    padding: 50px 25px;
+}
+
+
+/* About page css as seen on the mobile devices  */ 
+
+#people{
+    padding: 0px 20px; 
+    padding-bottom: 80px;
+}
+
+#people .guest{
+    padding: 15px; 
+    padding-bottom: 25px ;
+}
+
+
+#about_article .about_content ,#about_article .about_img{
+    width: 100%; 
+    padding: 10px 20px;
+}
+
+#about_article .about_content h1{
+    text-align: center;
+}
+
+ /* contact boxes page  css */ 
+
+#contact{
+    padding:    0px 30px; 
+    padding-bottom: 20px;
+}
+
+#contact h1{
+    padding-left: 0%;
+    text-align: center   ;
+}
+
+ #contact_boxes .contact_box{
+     width: 100%; 
+     padding: 30px 0px;  
+     border:  2px solid #444444 ; 
+     margin: 0;
+ }
+
+ #contact_boxes{
+     padding-top: 0%;
+    height: 600px;
+ }
